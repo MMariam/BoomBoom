@@ -6,11 +6,11 @@ html, body{
 }
 
 body{
-	background-image: url("img/landing_page.jpg");
+	background-image: url("img/balloons-1012541.jpg");
     background-size:     cover;                      /* <------ */
     background-repeat:   no-repeat;
     background-position: center center;
-    }
+}
 
 @font-face {
     font-family: 'Geraldine'; /*a name to be used later*/
@@ -22,65 +22,90 @@ body{
 	left: 0;
 	width: 150px;
 }
-  .slide{
-     position: relative;
+.slide{
+   position: relative;
 
-     padding: 15px;
-     padding-bottom: 0px;
-     width: auto;
-     height: auto;
-     overflow-x: scroll;
-     overflow-y: hidden;
+   padding: 15px;
+   padding-bottom: 0px;
+   width: auto;
+   height: auto;
+   overflow-x: scroll;
+   overflow-y: hidden;
 
-     white-space: nowrap;
-     z-index:1000;
-     margin-bottom: 1%;
-     margin-top: 10%;
-   }
+   white-space: nowrap;
+   z-index:1000;
+   margin-bottom: 1%;
+   margin-top: 10%;
+}
 
-     .menu{
+.menu{
     width: 100%;
     float: left;
     list-style: none;
     padding-top: 4%;
     text-align: center;
-    font-size: 30px;
-   font-family: 'Geraldine';
-  }
+}
 
 
-  .menu li {
+.menu li {
     letter-spacing: 3px;
     top: 0px;
     display: inline-block; 
     margin-right: 5%;
 
-  }
+}
 
 
 #home{
 
-	    font-size: 50px;
+   font-size: 40px;
+   color: black;
+       font-family: 'Geraldine';
 
 }
+#g{
+color: black;
+}
 
-  .menu a  {
+#p{
+color:black;
+}
+
+#o{
+color: black;
+}
+
+#g, #p, #o{
+        font: 20px;
+
+}
+.menu a  {
     color: hotpink;
-      }
+}
 
-     .container{
-     	margin-top: 2%;
-     	background-color: rgba(0,0,0,0.5);
-     	width: 100%;
-     }
+a:hover{
+        text-decoration: none!important;
 
-     .content{
-     	background-color: black;
-     }
+}
+.container{
+  margin-top: 2%;
+  background-color: rgba(255,255,255,0.6);
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+.slide img{
+    border-radius: 5px;
+}
+
+/*.content{
+  background-color: black;
+}*/
 
 footer, h1{
 	text-align: center;
-	    color: hotpink!important;
+   color: black;
 
 }
 
