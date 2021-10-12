@@ -1,0 +1,106 @@
+<!doctype html>
+
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- TITLE OF THE TAB -->
+  <title>Home</title>
+
+
+  <!-- LINKING TO JS SCRIPT -->
+<!-- 	<script src="animate.js"></script>
+-->	<!-- LINKING TO CSS SOURCE CODE -->
+<link href="styles.css" rel="stylesheet"  type="text/css">  
+<!-- LINKING TO BOOTSTRAP -->
+<link href="https://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet"> 
+
+<link rel="shortcut icon" type="image/x-icon" href="img/flower.ico" />
+
+</head>
+
+<body>
+
+  <!-- WEBPAGE HEADER -->
+  <div class="header">
+   <!-- BOOTSTRAP CONTAINER?!?! -->
+   <div class="container">
+    <!-- LOGO -->
+    <div id="logo-icon">
+      <img src="img/heart.png" alt="">
+    </div>
+    <!-- NAVIGATION MENU -->
+    <h1>Boom Boom Baloons</h1>
+    <ul class="menu">
+
+      <li><a href="#" id="home">Home</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Order</a></li>
+
+    </ul>
+
+
+
+
+<div class="content">
+
+  <div class="slide">
+
+   <a href="#"><img src="content/photo1.png" style="height: 350px;"> </a>
+
+   <a href="#"><img src="content/photo2.png" style="height: 350px;"> </a>
+
+   <a href="#"><img src="content/photo3.png" style="height: 350px;"> </a>
+
+   <a href="#"><img src="content/photo4.png" style="height: 350px;"> </a>
+
+ </div>
+
+  </div>
+</div>
+</div>
+ <footer>
+  <p>copyright © 2021 Boom Boom — all rights reserved </p>
+</footer>
+<script>
+
+  function showMeWhatIsBeingClickedOn(){
+
+    document.addEventListener('click', function(e) {
+      e = e || window.event;
+      var target = e.target || e.srcElement,
+      text = target.textContent || target.innerText;  
+      console.log(e.srcElement);
+    }, false);}
+
+    document.getElementById("dropdown-menu").style.display="none";
+
+
+    document.getElementById("dropdown-toggle").onclick = function () {
+      console.log("hey");
+      if( document.getElementById("dropdown-menu").style.display=="none"){
+        console.log("hey");
+        console.log(document.getElementById("dropdown-menu").style.display);
+        document.getElementById("dropdown-menu").style.display="block";
+
+}
+
+
+else
+{
+
+  document.getElementById("dropdown-menu").style.display="none";
+
+ }
+}
+
+</script>
+
+
+
+</body>
+</html>

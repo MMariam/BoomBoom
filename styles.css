@@ -1,0 +1,90 @@
+html, body{
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body{
+	background-image: url("img/landing_page.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    }
+
+@font-face {
+    font-family: 'Geraldine'; /*a name to be used later*/
+    src: url('geraldine-font/GeraldinePersonalUseItalic-PK12m.ttf'); /*URL to font*/
+}
+
+#logo-icon img{
+	top: 0;
+	left: 0;
+	width: 150px;
+}
+  .slide{
+     position: relative;
+
+     padding: 15px;
+     padding-bottom: 0px;
+     width: auto;
+     height: auto;
+     overflow-x: scroll;
+     overflow-y: hidden;
+
+     white-space: nowrap;
+     z-index:1000;
+     margin-bottom: 1%;
+     margin-top: 10%;
+   }
+
+     .menu{
+    width: 100%;
+    float: left;
+    list-style: none;
+    padding-top: 4%;
+    text-align: center;
+    font-size: 30px;
+   font-family: 'Geraldine';
+  }
+
+
+  .menu li {
+    letter-spacing: 3px;
+    top: 0px;
+    display: inline-block; 
+    margin-right: 5%;
+
+  }
+
+
+#home{
+
+	    font-size: 50px;
+
+}
+
+  .menu a  {
+    color: hotpink;
+      }
+
+     .container{
+     	margin-top: 2%;
+     	background-color: rgba(0,0,0,0.5);
+     	width: 100%;
+     }
+
+     .content{
+     	background-color: black;
+     }
+
+footer, h1{
+	text-align: center;
+	    color: hotpink!important;
+
+}
+
+h1{
+	font-family: 'Geraldine'!important;
+	font-size: 60%;
+}
