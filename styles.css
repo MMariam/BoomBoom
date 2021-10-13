@@ -1,8 +1,8 @@
 html, body{
 	width: 100%;
-	height: auto;
 	box-sizing: border-box;
 	margin: 0;
+    overflow: auto;
 }
 
 body{
@@ -44,8 +44,8 @@ body{
     list-style: none;
     padding-top: 4%;
     text-align: center;
-}
 
+}
 
 .menu li {
     letter-spacing: 3px;
@@ -112,4 +112,40 @@ footer, h1{
 h1{
 	font-family: 'Geraldine'!important;
 	font-size: 60%;
+}
+
+@media only screen 
+and  (max-width : 1200px) {
+  /* Styles */
+  .menu{
+    width: 100!important%;
+  }
+  #home{
+    font-size: 20px;
+  }
+  #logo-icon img{
+    width: 60px;
+  }
+  .slide img{
+    width: 100%;
+    display: block;
+    margin-bottom: 1%;
+  }
+  .slide{
+    margin-top: 40%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .header{
+    position: fixed;
+    z-index:9999;
+    margin-top: 0!important;
+    background-color: rgba(255,255,255,0.8);;
+    width: 91%;
+    margin-right: 5%!important;
+    border-radius: 4px;
+  }
+.container{
+    margin-top: 0;
+}
 }
